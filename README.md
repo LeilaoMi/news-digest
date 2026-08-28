@@ -1,6 +1,6 @@
 # 每日时事简报 · news-digest
 
-> Cloudflare Workers 轻量版 | 现状已够用，冻结功能，只做运维
+> Cloudflare Workers 轻量版 | 
 
 每日 07:00 早报 · 19:00 晚报（北京时间）自动推送。数据源：微博热搜 + BBC中文 / DW中文 / NYT中文 / FT中文 / RFA中文 / RFI中文 / Solidot（7源）→ 深度正文抓取 → 去重评分 → Workers AI 三级回退总结 → KV/D1/R2 存储 → 多渠道分发。
 
