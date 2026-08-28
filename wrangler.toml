@@ -1,0 +1,25 @@
+name = "news-digest"
+main = "worker.js"
+compatibility_date = "2025-01-15"
+
+[triggers]
+crons = ["0 11,23 * * *"]
+
+[ai]
+binding = "AI"
+
+[[kv_namespaces]]
+binding = "KV"
+id = "c875d451df2e40498c6c910736bdaaae"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "news-digest-db"
+database_id = "603266f5-cf1f-45eb-9bd2-b6483967081c"
+
+[[r2_buckets]]
+binding = "ARCHIVE"
+bucket_name = "news-digest-archive"
+
+[vars]
+PUBLIC_BASE_URL = "https://news.leilaomi.cc.cd"

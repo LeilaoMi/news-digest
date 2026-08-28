@@ -1,0 +1,14 @@
+{
+  "name": "news-digest",
+  "version": "3.0.0",
+  "description": "每日时事简报 - Cloudflare Workers 轻量版 | 7源RSS + 微博热搜 + Workers AI 总结 + Server酱推送",
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "tail": "wrangler tail"
+  },
+  "devDependencies": {
+    "wrangler": "^3.80.0"
+  }
+}
